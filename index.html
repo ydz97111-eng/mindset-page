@@ -3,105 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <title>برنامج العقلية والانضباط</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap مجاني -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
-      font-family: Tahoma, Arial;
-      background: #0f172a;
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background-color: #0f0f0f;
       color: #fff;
     }
-    .hero {
-      padding: 80px 15px;
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .video-card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 30px;
       text-align: center;
     }
-    .hero h1 {
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-    .cta-btn {
-      background: #16a085;
-      border: none;
-      padding: 15px 30px;
-      font-size: 20px;
+
+    .video-card img {
+      width: 100%;
+      max-width: 100%;
       border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s;
     }
-    .section {
-      padding: 60px 15px;
+
+    .video-card img:hover {
+      transform: scale(1.02);
     }
-    .card {
-      background: #1e293b;
-      border: none;
-      border-radius: 15px;
+
+    .video-title {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .note {
+      text-align: center;
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 40px;
     }
   </style>
 </head>
 
 <body>
 
-<!-- HERO -->
-<section class="hero">
-  <h1>برنامج العقلية والانضباط الذاتي</h1>
-  <p class="lead">غيّر طريقة تفكيرك… وسيطر على حياتك خلال 30 يوماً</p>
-  <a href="#buy" class="btn cta-btn mt-4">اشترك الآن</a>
-</section>
-
-<!-- المشكلة -->
-<section class="section bg-dark">
   <div class="container">
-    <h2 class="text-center mb-4">هل تعاني من هذا؟</h2>
-    <div class="row text-center">
-      <div class="col-md-4 mb-3">❌ تسويف مستمر</div>
-      <div class="col-md-4 mb-3">❌ ضعف الانضباط</div>
-      <div class="col-md-4 mb-3">❌ فقدان السيطرة</div>
+
+    <h1>محتوى برنامج العقلية والانضباط</h1>
+
+    <!-- فيديو 1 -->
+    <div class="video-card">
+      <a href="https://www.youtube.com/watch?v=VIDEO1" target="_blank">
+        <img src="cover1.jpg" alt="مقدمة المرحلة الأولى">
+      </a>
+      <div class="video-title">مقدمة المرحلة الأولى</div>
     </div>
-  </div>
-</section>
 
-<!-- الحل -->
-<section class="section">
-  <div class="container">
-    <h2 class="text-center mb-4">ما الحل؟</h2>
-    <p class="text-center">
-      برنامج تدريبي عملي يعالج جذور المشكلة من العقلية والهوية،
-      وليس فقط الحماس المؤقت.
-    </p>
-  </div>
-</section>
-
-<!-- المحتوى -->
-<section class="section bg-dark">
-  <div class="container">
-    <h2 class="text-center mb-4">ماذا ستحصل عليه؟</h2>
-    <div class="row">
-      <div class="col-md-4 mb-3">
-        <div class="card p-4 text-center">🎥 محاضرات عميقة</div>
-      </div>
-      <div class="col-md-4 mb-3">
-        <div class="card p-4 text-center">🧠 إعادة برمجة العقلية</div>
-      </div>
-      <div class="col-md-4 mb-3">
-        <div class="card p-4 text-center">🔥 نظام انضباط عملي</div>
-      </div>
+    <!-- فيديو 2 -->
+    <div class="video-card">
+      <a href="https://www.youtube.com/watch?v=VIDEO2" target="_blank">
+        <img src="cover2.jpg" alt="القوى المظلمة">
+      </a>
+      <div class="video-title">القوى المظلمة التي تمسك كعبيك</div>
     </div>
+
+    <!-- فيديو 3 -->
+    <div class="video-card">
+      <a href="https://www.youtube.com/watch?v=VIDEO3" target="_blank">
+        <img src="cover3.jpg" alt="قانون الطبيعة">
+      </a>
+      <div class="video-title">قانون الطبيعة</div>
+    </div>
+
+    <div class="note">
+      هذا المحتوى خاص بالمشتركين فقط
+    </div>
+
   </div>
-</section>
-
-<!-- السعر -->
-<section class="section text-center" id="buy">
-  <h2>سعر البرنامج</h2>
-  <p class="fs-4"><del>99$</del> <strong>29$ فقط</strong></p>
-  <a href="https://your-payment-link" class="btn cta-btn mt-3">
-    الوصول الفوري
-  </a>
-</section>
-
-<footer class="text-center p-4 bg-dark">
-  © 2026 – جميع الحقوق محفوظة
-</footer>
 
 </body>
 </html>
